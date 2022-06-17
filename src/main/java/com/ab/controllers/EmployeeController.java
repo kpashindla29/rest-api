@@ -19,7 +19,7 @@ public class EmployeeController {
 	}
 	
 	@GetMapping("/hi")
-	public String greeting() {
+	public String hi() {
 		return "Hi there!!!!";
 	}
 	
