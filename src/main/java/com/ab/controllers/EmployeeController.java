@@ -18,6 +18,10 @@ public class EmployeeController {
 		return "Welcome to REST API";
 	}
 	
+	@GetMapping("/hi")
+	public String greeting() {
+		return "Hi there!!!!";
+	}
 	
 	
 //	@PostMapping("/employee")
